@@ -8,7 +8,8 @@
     {
       "matches": [
         "https://pubmed.ncbi.nlm.nih.gov/*",
-        "https://www.nature.com/*"
+        "https://www.nature.com/*",
+        "https://www.sciencedirect.com/*"
       ],
       "js": [
         "dist/bundle.js"

@@ -4,6 +4,7 @@
 
 - PubMed
 - Nature
+- Science Direct
 
 ## Contributing
 
@@ -20,6 +21,13 @@ Build for development (with file watcher)
 ```bash
 npm run build:dev
 ```
+
+### Add new journal site
+
+1. Add matches to `manifest.json`
+2. Add page analyzer (`src/util/`)
+3. Add page injector (`src/util/`)
+4. Add using of the new created page injector (`src/index.ts`)
 
 ## Tests
 
@@ -43,3 +51,4 @@ npm run build:dev
 
 - PubMed : https://pubmed.ncbi.nlm.nih.gov/28673424
 - Nature : https://www.nature.com/articles/144672b0
+- Science Direct : https://www.sciencedirect.com/science/article/abs/pii/S187943781630016X
