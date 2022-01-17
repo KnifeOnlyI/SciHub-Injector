@@ -9,7 +9,8 @@
       "matches": [
         "https://pubmed.ncbi.nlm.nih.gov/*",
         "https://www.nature.com/*",
-        "https://www.sciencedirect.com/*"
+        "https://www.sciencedirect.com/*",
+        "https://www.tandfonline.com/*"
       ],
       "js": [
         "dist/bundle.js"

@@ -5,6 +5,7 @@
 - PubMed
 - Nature
 - Science Direct
+- Taylor & Francis
 
 ## Contributing
 
