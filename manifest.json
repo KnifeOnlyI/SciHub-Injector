@@ -1,0 +1,24 @@
+{
+  "name": "Sci-Hub Injector",
+  "description": "A webpage injector of direct access sci-hub link",
+  "version": "0.0.1",
+  "permissions": [],
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://pubmed.ncbi.nlm.nih.gov/*",
+        "https://www.nature.com/*"
+      ],
+      "js": [
+        "dist/bundle.js"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "resources/icons/icon_128.png",
+    "48": "resources/icons/icon_48.png",
+    "32": "resources/icons/icon_32.png",
+    "16": "resources/icons/icon_16.png"
+  }
+}

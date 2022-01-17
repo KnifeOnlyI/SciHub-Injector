@@ -1,0 +1,24 @@
+{
+  "name": "sci-hub-injector",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Dany Pignoux",
+    "email": "dany.pignoux@outlook.fr",
+    "url": "github.com/KnifeOnlyI"
+  },
+  "contributors": [],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --watch --mode=development"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack": "5.66.0",
+    "webpack-cli": "4.9.1",
+    "ts-loader": "9.2.6",
+    "typescript": "4.5.4"
+  }
+}
