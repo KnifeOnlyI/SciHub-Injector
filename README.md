@@ -29,6 +29,7 @@ npm run build:dev
 2. Add page analyzer (`src/util/`)
 3. Add page injector (`src/util/`)
 4. Add using of the new created page injector (`src/index.ts`)
+5. Update README.md (`Supported sites` and `Examples url for testing`)
 
 ## Tests
 
@@ -53,3 +54,4 @@ npm run build:dev
 - PubMed : https://pubmed.ncbi.nlm.nih.gov/28673424
 - Nature : https://www.nature.com/articles/144672b0
 - Science Direct : https://www.sciencedirect.com/science/article/abs/pii/S187943781630016X
+- Taylor & Francis : https://www.tandfonline.com/doi/abs/10.1080/00220671.1972.10884418
