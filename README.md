@@ -6,8 +6,18 @@
 - Nature
 - Science Direct
 - Taylor & Francis
+- SpringerLink (article, book, chapter, protocol, reference work)
 
-## Contributing
+### Journal screenshots
+
+![Pubmed journal with added Sci-Hub button](resources/journal-screenshots/pubmed.PNG)
+![Nature journal with added Sci-Hub button](resources/journal-screenshots/nature.PNG)
+![Science direct journal with added Sci-Hub button](resources/journal-screenshots/science-direct.PNG)
+![Taylor & Francis journal with added Sci-Hub button](resources/journal-screenshots/tandfonline.PNG)
+![Springer Link (article) journal with added Sci-Hub button](resources/journal-screenshots/springer-link-article.PNG)
+![Springer Link (book, chapter, protocol, reference work) journal with added Sci-Hub button](resources/journal-screenshots/springer-link-general.PNG)
+
+## Development
 
 ### Commands
 
@@ -29,7 +39,7 @@ npm run build:dev
 2. Add page analyzer (`src/util/`)
 3. Add page injector (`src/util/`)
 4. Add using of the new created page injector (`src/index.ts`)
-5. Update README.md (`Supported sites` and `Examples url for testing`)
+5. Update README.md (`Supported sites`, `Journal screenshots`, `Examples url for testing`)
 
 ## Tests
 
@@ -55,3 +65,9 @@ npm run build:dev
 - Nature : https://www.nature.com/articles/144672b0
 - Science Direct : https://www.sciencedirect.com/science/article/abs/pii/S187943781630016X
 - Taylor & Francis : https://www.tandfonline.com/doi/abs/10.1080/00220671.1972.10884418
+- SpringerLink (Article) : https://link.springer.com/article/10.1007/s40278-018-42901-5
+- SpringerLink (Book, Chapter, Protocol, Reference Work) : https://link.springer.com/book/10.1007/978-3-642-14691-6
+
+## Contributing
+
+Feel free to make a pull requests !

@@ -8,6 +8,12 @@ export interface ConfigurationInterface {
   /** The Sci-Hub name */
   sciHubName: string,
 
+  /** The Sci-Hub link title */
+  sciHubLinkTitle: string,
+
+  /** The Sci-Hub link visible text */
+  sciHubLinkText: string,
+
   /** The Sci-Hub logo alt value */
   sciHubLogoAlt: string,
 

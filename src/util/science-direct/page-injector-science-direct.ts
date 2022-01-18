@@ -8,11 +8,11 @@ export class PageInjectorScienceDirect extends BasePageInjector {
     setTimeout(() => {
       this.target.innerHTML += `
       <li class="RemoteAccessButton" id="RemoteAccessButton">
-        <a class="link-button link-button-primary" role="button" href="${this.scihubUrl}">
+        <a class="link-button link-button-primary" role="button" href="${this.scihubUrl}" title="${this.config.sciHubLinkTitle}">
           <span class="link-button-text">
             <img class="inst-icon" src="${this.config.sciHubIcon}" alt="${this.config.sciHubLogoAlt}">
             <span class="remote-access-button-text">
-              <p class="access-text">Access on ${this.config.sciHubName}</p>
+              <p class="access-text">${this.config.sciHubLinkText}</p>
             </span>
           </span>
         </a>
