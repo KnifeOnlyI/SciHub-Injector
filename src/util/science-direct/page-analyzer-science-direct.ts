@@ -5,7 +5,7 @@ import {PageAnalyzerInterface} from '../../core/page-analyzer.interface';
  */
 export class PageAnalyzerScienceDirect implements PageAnalyzerInterface {
   getDOI(): string {
-    return document.querySelector('.doi').textContent.split('.org/')[1];
+    return document.querySelector('.doi')?.textContent.split('.org/')[1];
   }
 
   getTargetHTML(): HTMLElement {

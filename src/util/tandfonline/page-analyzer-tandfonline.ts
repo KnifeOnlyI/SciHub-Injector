@@ -5,7 +5,7 @@ import {PageAnalyzerInterface} from '../../core/page-analyzer.interface';
  */
 export class PageAnalyzerTandfonline implements PageAnalyzerInterface {
   getDOI(): string {
-    return document.querySelector('.dx-doi > a').textContent.split('.org/')[1];
+    return document.querySelector('.dx-doi > a')?.textContent.split('.org/')[1];
   }
 
   getTargetHTML(): HTMLElement {

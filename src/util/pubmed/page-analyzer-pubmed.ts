@@ -5,7 +5,7 @@ import {PageAnalyzerInterface} from '../../core/page-analyzer.interface';
  */
 export class PageAnalyzerPubmed implements PageAnalyzerInterface {
   getDOI(): string {
-    return (document.querySelector('.identifier.doi > a') as HTMLElement).innerText;
+    return (document.querySelector('.identifier.doi > a') as HTMLElement)?.innerText;
   }
 
   getTargetHTML(): HTMLElement {
