@@ -6,7 +6,7 @@ import {BasePageInjector} from '../../core/base-page-injector';
 export class PageInjectorScienceDirect extends BasePageInjector {
   protected injectIfValid(): void {
     setTimeout(() => {
-      this.target.innerHTML += `
+      (this.target as HTMLElement).innerHTML += `
       <li class="RemoteAccessButton" id="RemoteAccessButton">
         <a class="link-button link-button-primary" role="button" href="${this.scihubUrl}" title="${this.config.sciHubLinkTitle}">
           <span class="link-button-text">

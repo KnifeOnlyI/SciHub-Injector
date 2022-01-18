@@ -14,6 +14,8 @@ import {PageInjectorSpringerLinkGeneral} from './util/springer-link/general/page
 import {PageAnalyzerSpringerLinkGeneral} from './util/springer-link/general/page-analyzer-springer-link-general';
 import {PageInjectorCochraneLibrary} from './util/cochrane-library/page-injector-cochrane-library';
 import {PageAnalyzerCochraneLibrary} from './util/cochrane-library/page-analyzer-cochrane-library';
+import {PageInjectorGoogleScholar} from './util/google-scholar/page-injector-google-scholar';
+import {PageAnalyzerGoogleScholar} from './util/google-scholar/page-analyzer-google-scholar';
 
 function addSciHubLink() {
   const url = document.location.href;
@@ -39,6 +41,8 @@ function addSciHubLink() {
     }
   } else if (url.includes('cochranelibrary.com')) {
     new PageInjectorCochraneLibrary(new PageAnalyzerCochraneLibrary(), config, {url}).inject();
+  } else if (url.includes('scholar.google.com')) {
+    new PageInjectorGoogleScholar(new PageAnalyzerGoogleScholar(), config).inject();
   }
 }
 

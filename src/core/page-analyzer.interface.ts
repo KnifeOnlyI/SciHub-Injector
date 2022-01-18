@@ -7,16 +7,16 @@ export interface PageAnalyzerInterface {
    *
    * @param customData The custom data to use (optional)
    *
-   * @return the DOI of the current resource (undefined if not found)
+   * @return the DOI(s) of the current resource (undefined if not found)
    */
-  getDOI(customData?: any): string | undefined;
+  getDOI(customData?: any): string | Array<string>;
 
   /**
    * Get the target HTML
    *
    * @param customData The custom data to use (optional)
    *
-   * @return The founded target HTML (undefined if not found)
+   * @return The founded target(s) HTML (undefined if not found)
    */
-  getTargetHTML(customData?: any): HTMLElement | undefined;
+  getTargetHTML(customData?: any): HTMLElement | Array<HTMLElement> | undefined;
 }

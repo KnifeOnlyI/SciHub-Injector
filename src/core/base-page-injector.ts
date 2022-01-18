@@ -7,10 +7,10 @@ import {ConfigurationInterface} from './configuration.interface';
  */
 export abstract class BasePageInjector implements PageInjectorInterface {
   /** The DOI */
-  protected doi: string | undefined;
+  protected doi: string | Array<string> | undefined;
 
   /** The HTML target element where inject Sci-Hub URL */
-  protected target: HTMLElement | undefined;
+  protected target: HTMLElement | Array<HTMLElement> | undefined;
 
   /** The Sci-Hub URL to inject in the page */
   protected scihubUrl: string;
@@ -29,11 +29,14 @@ export abstract class BasePageInjector implements PageInjectorInterface {
   ) {
     this.doi = analyzer.getDOI(customData);
     this.target = analyzer.getTargetHTML(customData);
-    this.scihubUrl = `${config.scihubUrl}/${this.doi}`;
+
+    if (!Array.isArray(this.doi)) {
+      this.scihubUrl = `${config.scihubUrl}/${this.doi}`;
+    }
   }
 
   inject(): void {
-    if (this.doi && this.target && this.scihubUrl) {
+    if (this.doi && this.target) {
       this.injectIfValid();
     }
   }

@@ -6,16 +6,17 @@ import {BasePageInjector} from '../../core/base-page-injector';
 export class PageInjectorCochraneLibrary extends BasePageInjector {
   protected injectIfValid(): void {
     const targetChildren = [];
+    const target = this.target as HTMLElement;
 
-    for (let i = 0; i < this.target.children.length; i++) {
-      targetChildren.push(this.target.children[i]);
+    for (let i = 0; i < target.children.length; i++) {
+      targetChildren.push(target.children[i]);
     }
 
-    this.target.innerHTML = '';
+    target.innerHTML = '';
 
-    this.target.appendChild(targetChildren[0]);
+    target.appendChild(targetChildren[0]);
 
-    this.target.innerHTML += `
+    target.innerHTML += `
     <a href="${this.scihubUrl}" class="unlock" title="${this.config.sciHubLinkTitle}"> 
       <i class="icon fa fa-chevron-right"></i>
       <img class="inst-icon" src="${this.config.sciHubIcon}" style="width: 1.0rem; height: 1.0rem;" alt="${this.config.sciHubLogoAlt}">
@@ -24,7 +25,7 @@ export class PageInjectorCochraneLibrary extends BasePageInjector {
     </a>`;
 
     for (let i = 1; i < targetChildren.length; i++) {
-      this.target.appendChild(targetChildren[i]);
+      target.appendChild(targetChildren[i]);
     }
   }
 }

@@ -5,7 +5,7 @@ import {BasePageInjector} from '../../core/base-page-injector';
  */
 export class PageInjectorNature extends BasePageInjector {
   protected injectIfValid(): void {
-    this.target.innerHTML += `
+    (this.target as HTMLElement).innerHTML += `
     <div class="js-access-button">
 			<a href="${this.scihubUrl}" class="c-article__button" title="${this.config.sciHubLinkTitle}">
 				<img style="width: 1.5rem; height: 1.5rem;" aria-hidden="true" src="${this.config.sciHubIcon}" alt="${this.config.sciHubLogoAlt}"/>

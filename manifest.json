@@ -12,7 +12,8 @@
         "https://www.sciencedirect.com/*",
         "https://www.tandfonline.com/*",
         "https://link.springer.com/*",
-        "https://www.cochranelibrary.com/*"
+        "https://www.cochranelibrary.com/*",
+        "https://scholar.google.com/*"
       ],
       "js": [
         "dist/bundle.js"
