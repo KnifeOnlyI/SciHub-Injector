@@ -1,7 +1,7 @@
 {
   "name": "Sci-Hub Injector",
   "description": "A webpage injector of direct access sci-hub link",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "permissions": [],
   "manifest_version": 2,
   "content_scripts": [
