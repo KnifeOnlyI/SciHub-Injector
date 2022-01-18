@@ -13,7 +13,8 @@
         "https://www.tandfonline.com/*",
         "https://link.springer.com/*",
         "https://www.cochranelibrary.com/*",
-        "https://scholar.google.com/*"
+        "https://scholar.google.com/*",
+        "https://ieeexplore.ieee.org/*"
       ],
       "js": [
         "dist/bundle.js"

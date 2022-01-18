@@ -16,6 +16,8 @@ import {PageInjectorCochraneLibrary} from './util/cochrane-library/page-injector
 import {PageAnalyzerCochraneLibrary} from './util/cochrane-library/page-analyzer-cochrane-library';
 import {PageInjectorGoogleScholar} from './util/google-scholar/page-injector-google-scholar';
 import {PageAnalyzerGoogleScholar} from './util/google-scholar/page-analyzer-google-scholar';
+import {PageInjectorIeee} from './util/ieee/page-injector-ieee';
+import {PageAnalyzerIeee} from './util/ieee/page-analyzer-ieee';
 
 function addSciHubLink() {
   const url = document.location.href;
@@ -43,6 +45,8 @@ function addSciHubLink() {
     new PageInjectorCochraneLibrary(new PageAnalyzerCochraneLibrary(), config, {url}).inject();
   } else if (url.includes('scholar.google.com')) {
     new PageInjectorGoogleScholar(new PageAnalyzerGoogleScholar(), config).inject();
+  } else if (url.includes('ieeexplore.ieee.org')) {
+    new PageInjectorIeee(new PageAnalyzerIeee(), config).inject();
   }
 }
 

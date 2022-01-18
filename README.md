@@ -9,6 +9,7 @@
 - Springer Link (article, book, chapter, protocol, reference work)
 - Cochrane Library
 - Google scholar
+- IEEE
 
 ### Journal screenshots
 
@@ -20,6 +21,7 @@
 ![Springer Link (book, chapter, protocol, reference work) journal with added Sci-Hub button](resources/journal-screenshots/springer-link-general.PNG)
 ![Cochrane Library](resources/journal-screenshots/cochrane-library.PNG)
 ![Google scholar](resources/journal-screenshots/google-scholar.PNG)
+![IEEE](resources/journal-screenshots/ieee.PNG)
 
 ## Development
 
@@ -73,6 +75,7 @@ npm run build:dev
 - Springer Link (Book, Chapter, Protocol, Reference Work) : https://link.springer.com/book/10.1007/978-3-642-14691-6
 - Cochrane Library : https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006403.pub2/full
 - Google scholar : https://scholar.google.com/scholar?hl=fr&as_sdt=0%2C5&q=measles+systematic+review&btnG=&oq=measles+syst
+- IEEE : https://ieeexplore.ieee.org/abstract/document/5976510
 
 ## Contributing
 
