@@ -11,7 +11,8 @@
         "https://www.nature.com/*",
         "https://www.sciencedirect.com/*",
         "https://www.tandfonline.com/*",
-        "https://link.springer.com/*"
+        "https://link.springer.com/*",
+        "https://www.cochranelibrary.com/*"
       ],
       "js": [
         "dist/bundle.js"

@@ -7,6 +7,7 @@
 - Science Direct
 - Taylor & Francis
 - SpringerLink (article, book, chapter, protocol, reference work)
+- Cochrane Library
 
 ### Journal screenshots
 
@@ -16,6 +17,7 @@
 ![Taylor & Francis journal with added Sci-Hub button](resources/journal-screenshots/tandfonline.PNG)
 ![Springer Link (article) journal with added Sci-Hub button](resources/journal-screenshots/springer-link-article.PNG)
 ![Springer Link (book, chapter, protocol, reference work) journal with added Sci-Hub button](resources/journal-screenshots/springer-link-general.PNG)
+![Cochrane Library](resources/journal-screenshots/cochrane-library.PNG)
 
 ## Development
 
@@ -67,6 +69,7 @@ npm run build:dev
 - Taylor & Francis : https://www.tandfonline.com/doi/abs/10.1080/00220671.1972.10884418
 - SpringerLink (Article) : https://link.springer.com/article/10.1007/s40278-018-42901-5
 - SpringerLink (Book, Chapter, Protocol, Reference Work) : https://link.springer.com/book/10.1007/978-3-642-14691-6
+- Cochrane Library : https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006403.pub2/full
 
 ## Contributing
 
