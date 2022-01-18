@@ -18,6 +18,8 @@ import {PageInjectorGoogleScholar} from './util/google-scholar/page-injector-goo
 import {PageAnalyzerGoogleScholar} from './util/google-scholar/page-analyzer-google-scholar';
 import {PageInjectorIeee} from './util/ieee/page-injector-ieee';
 import {PageAnalyzerIeee} from './util/ieee/page-analyzer-ieee';
+import {PageInjectorBmj} from './util/bmj/page-injector-bmj';
+import {PageAnalyzerBmj} from './util/bmj/page-analyzer-bmj';
 
 function addSciHubLink() {
   const url = document.location.href;
@@ -47,6 +49,8 @@ function addSciHubLink() {
     new PageInjectorGoogleScholar(new PageAnalyzerGoogleScholar(), config).inject();
   } else if (url.includes('ieeexplore.ieee.org')) {
     new PageInjectorIeee(new PageAnalyzerIeee(), config).inject();
+  } else if (url.includes('www.bmj.com')) {
+    new PageInjectorBmj(new PageAnalyzerBmj(), config).inject();
   }
 }
 

@@ -14,7 +14,8 @@
         "https://link.springer.com/*",
         "https://www.cochranelibrary.com/*",
         "https://scholar.google.com/*",
-        "https://ieeexplore.ieee.org/*"
+        "https://ieeexplore.ieee.org/*",
+        "https://www.bmj.com/*"
       ],
       "js": [
         "dist/bundle.js"

@@ -10,6 +10,7 @@
 - Cochrane Library
 - Google scholar
 - IEEE
+- BMJ
 
 ### Journal screenshots
 
@@ -22,6 +23,7 @@
 ![Cochrane Library](resources/journal-screenshots/cochrane-library.PNG)
 ![Google scholar](resources/journal-screenshots/google-scholar.PNG)
 ![IEEE](resources/journal-screenshots/ieee.PNG)
+![BMJ](resources/journal-screenshots/bmj.PNG)
 
 ## Development
 
@@ -76,6 +78,7 @@ npm run build:dev
 - Cochrane Library : https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006403.pub2/full
 - Google scholar : https://scholar.google.com/scholar?hl=fr&as_sdt=0%2C5&q=measles+systematic+review&btnG=&oq=measles+syst
 - IEEE : https://ieeexplore.ieee.org/abstract/document/5976510
+- BMJ : https://www.bmj.com/content/373/bmj.n1162
 
 ## Contributing
 
