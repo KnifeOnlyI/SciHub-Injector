@@ -11,6 +11,7 @@
 - Google scholar
 - IEEE
 - BMJ
+- Eureka
 
 ### Journal screenshots
 
@@ -24,6 +25,7 @@
 ![Google scholar](resources/journal-screenshots/google-scholar.PNG)
 ![IEEE](resources/journal-screenshots/ieee.PNG)
 ![BMJ](resources/journal-screenshots/bmj.PNG)
+![Eureka](resources/journal-screenshots/eureka.PNG)
 
 ## Development
 
@@ -79,6 +81,7 @@ npm run build:dev
 - Google scholar : https://scholar.google.com/scholar?hl=fr&as_sdt=0%2C5&q=measles+systematic+review&btnG=&oq=measles+syst
 - IEEE : https://ieeexplore.ieee.org/abstract/document/5976510
 - BMJ : https://www.bmj.com/content/373/bmj.n1162
+- Eureka : https://www.eurekaselect.com/article/81932
 
 ## Contributing
 

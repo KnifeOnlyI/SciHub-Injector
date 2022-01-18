@@ -15,7 +15,8 @@
         "https://www.cochranelibrary.com/*",
         "https://scholar.google.com/*",
         "https://ieeexplore.ieee.org/*",
-        "https://www.bmj.com/*"
+        "https://www.bmj.com/*",
+        "https://www.eurekaselect.com/*"
       ],
       "js": [
         "dist/bundle.js"

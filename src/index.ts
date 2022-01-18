@@ -20,6 +20,8 @@ import {PageInjectorIeee} from './util/ieee/page-injector-ieee';
 import {PageAnalyzerIeee} from './util/ieee/page-analyzer-ieee';
 import {PageInjectorBmj} from './util/bmj/page-injector-bmj';
 import {PageAnalyzerBmj} from './util/bmj/page-analyzer-bmj';
+import {PageInjectorEureka} from './util/eureka/page-injector-eureka';
+import {PageAnalyzerEureka} from './util/eureka/page-analyzer-eureka';
 
 function addSciHubLink() {
   const url = document.location.href;
@@ -49,8 +51,10 @@ function addSciHubLink() {
     new PageInjectorGoogleScholar(new PageAnalyzerGoogleScholar(), config).inject();
   } else if (url.includes('ieeexplore.ieee.org')) {
     new PageInjectorIeee(new PageAnalyzerIeee(), config).inject();
-  } else if (url.includes('www.bmj.com')) {
+  } else if (url.includes('bmj.com')) {
     new PageInjectorBmj(new PageAnalyzerBmj(), config).inject();
+  } else if (url.includes('eurekaselect.com')) {
+    new PageInjectorEureka(new PageAnalyzerEureka(), config, {url}).inject();
   }
 }
 
