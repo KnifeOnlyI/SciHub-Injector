@@ -51,23 +51,25 @@ npm run build:dev
 4. Add using of the new created page injector (`src/index.ts`)
 5. Update README.md (`Supported sites`, `Journal screenshots`, `Examples url for testing`)
 
-## Tests
+## Usage and tests
 
-### For testing on firefox
+### On firefox
 
-1. Open Firefox
-2. Enter `about:debugging` in the URL bar
-3. Click `This firefox`
-4. Click `Load temporary Add-on`
-5. Open the extension's directory and select `manifest.json` file
+1. Unzip file (if you use a release files)
+2. Open Firefox
+3. Enter `about:debugging` in the URL bar
+4. Click `This firefox`
+5. Click `Load temporary Add-on`
+6. Open the extension's directory and select `manifest.json` file
 
-### For testing on Chrome
+### On chrome
 
-1. Open Chrome
-2. Enable `Developer mode` by ticking the checkbox in the upper-right corner.
-3. Enter `chrome://extensions`
-4. Click `Load unpacked extension`
-5. Select the extension's directory
+1. Unzip file (if you use a release files)
+2. Open Chrome
+3. Enable `Developer mode` by ticking the checkbox in the upper-right corner.
+4. Enter `chrome://extensions`
+5. Click `Load unpacked extension`
+6. Select the extension's directory
 
 ### Examples url for testing :
 
