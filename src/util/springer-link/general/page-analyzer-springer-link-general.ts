@@ -5,6 +5,6 @@ import {PageAnalyzerSpringerLink} from '../page-analyzer-springer-link';
  */
 export class PageAnalyzerSpringerLinkGeneral extends PageAnalyzerSpringerLink {
   getTargetHTML(): HTMLElement {
-    return document.querySelector('form.buying-option-form');
+    return document.querySelector('.c-notes__text');
   }
 }

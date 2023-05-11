@@ -7,14 +7,10 @@ export class PageInjectorScienceDirect extends BasePageInjector {
   protected injectIfValid(): void {
     setTimeout(() => {
       (this.target as HTMLElement).innerHTML += `
-      <li class="RemoteAccessButton" id="RemoteAccessButton">
-        <a class="link-button link-button-primary" role="button" href="${this.scihubUrl}" title="${this.config.sciHubLinkTitle}">
-          <span class="link-button-text">
-            <img class="inst-icon" src="${this.config.sciHubIcon}" alt="${this.config.sciHubLogoAlt}">
-            <span class="remote-access-button-text">
-              <p class="access-text">${this.config.sciHubLinkText}</p>
-            </span>
-          </span>
+      <li class="RemoteAccess">
+        <a class="link-button RemoteAccessButton accessbar-utility-component accessbar-utility-link link-button-primary" href="${this.scihubUrl}" title="${this.config.sciHubLinkTitle}">
+          <img class="inst-icon" src="${this.config.sciHubIcon}" alt="${this.config.sciHubLogoAlt}">
+          <span style="margin-left: 45px" class="link-button-text">${this.config.sciHubLinkText}</span>
         </a>
       </li>`;
     }, 1000);

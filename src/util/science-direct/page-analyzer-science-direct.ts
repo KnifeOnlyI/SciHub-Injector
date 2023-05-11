@@ -9,6 +9,6 @@ export class PageAnalyzerScienceDirect implements PageAnalyzerInterface {
   }
 
   getTargetHTML(): HTMLElement {
-    return document.querySelector('.toolbar-buttons > ul');
+    return document.querySelector('.accessbar > ul');
   }
 }
